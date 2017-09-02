@@ -1,0 +1,89 @@
+.common {
+    width: 1100px;
+    margin: 0 auto;
+    .container {
+        display: flex;
+        padding-top: 15px;
+        .slot {
+            flex: 0 0 750px;
+            height: calc( 100vh - 240px);
+        }
+        .right {
+            flex: 1;
+            height: calc( 100vh - 240px);
+            border-left: 1px solid #999999;
+            .joinus {
+                background: rgb(22, 65, 132);
+                color: white;
+                height: 100px;
+                width: 270px;
+                margin-left: 15px;
+                margin-top: 15px;
+                .left1 {
+                    margin-left: 15px;
+                    div {
+                        line-height: 30px;
+                    }
+                }
+            }
+            .contactus {
+                background: rgb(22, 65, 132);
+                color: white;
+                height: 100px;
+                width: 270px;
+                margin-left: 15px;
+                margin-top: 15px;
+                display: flex;
+                .left1 {
+                    flex: 0 0 130px;
+                    margin-left: 15px;
+                    margin-top: 20px;
+                    div {
+                        line-height: 30px;
+                    }
+                }
+                .img {
+                    flex: 0 0 70px;
+                    height: 70px;
+                    margin-top: 15px;
+                    margin-left: 25px;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        border-top: 1px solid #999999;
+        height: 45px;
+        display: flex;
+        box-sizing: border-box;
+        .footerLeft {
+            flex: 0 0 750px;
+            line-height: 45px;
+            color: #333333;
+            font-size: 14px;
+            .content {
+                padding-left: 30px;
+            }
+        }
+        .footerRight {
+            flex: 1;
+            .content {
+                line-height: 45px;
+                border-left: 1px solid #999999;
+                background: rgb(237, 237, 237);
+                width: 290px;
+                text-align: center;
+                span {
+                    color: #333333;
+                    text-decoration: none;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
