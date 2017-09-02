@@ -23,6 +23,7 @@
             cursor: pointer;
             text-align: center;
             position: relative;
+            user-select: none;
             .dropDown {
                 position: absolute;
                 width: 100%;

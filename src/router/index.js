@@ -4,7 +4,8 @@ import Main from '@/components/Main/Main'
 
 
 Vue.use(Router)
-
+import event1 from '@/components/bigevent/event1/event1';
+import event2 from '@/components/bigevent/event2/event2';
 export default new Router({
     routes: [{
         path: '/',
@@ -12,8 +13,8 @@ export default new Router({
         component: Main,
         children: [{
                 path: '',
-                name: 'introduction',
-                component: resolve => require(['@/components/introduction/introduction'], resolve)
+                name: 'home',
+                component: resolve => require(['@/components/home/home'], resolve)
             },
             {
                 path: '/introduction',
@@ -49,6 +50,11 @@ export default new Router({
                 path: '/joinus',
                 name: 'joinus',
                 component: resolve => require(['@/components/joinus/joinus'], resolve)
+            },
+            {
+                path: '/contactus',
+                name: 'contactus',
+                component: resolve => require(['@/components/contactus/contactus'], resolve)
             }
         ]
     }]

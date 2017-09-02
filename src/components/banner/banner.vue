@@ -3,8 +3,8 @@
         <div class="img"><img src="../../assets/banner.png" alt="img"></div>
         <div class="nav">
             <div class="left">
-                <span>零优实业</span>
-                <span>{{$route.params.title||title}}</span>
+                <span>零忧实业</span>
+                <span @click="clickFun">{{$route.params.title||title}}</span>
             </div>
             <div class="right">
                 <span>公司简介</span>
@@ -19,6 +19,14 @@ export default {
     props: ["title"],
     data() {
         return {}
+    },
+    methods: {
+        clickFun() {
+            let name = this.$route.name;
+            let title = this.$route.params.title;
+            // this.$router.push({ name: name, params: { title: title } });
+            console.log('banner-',name,title);
+        }
     }
 }
 </script>

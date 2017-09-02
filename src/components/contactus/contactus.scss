@@ -1,4 +1,4 @@
-.buildingindustry {
+.contactus {
     .title {
         margin-top: 20px;
         font-size: 25px;
@@ -15,16 +15,16 @@
             background: rgb(22, 67, 139);
         }
     }
-    .content {
+    .container1 {
+        margin-left: 20px;
         margin-top: 20px;
-        .p {
-            line-height: 35px;
-            color: #666666;
-            text-indent: 2em;
+        .top {
+            color: #333333;
+            line-height: 30px;
         }
-        p {
-            line-height: 35px;
-            color: #666666;
+        .body {
+            margin-top: 20px;
+            line-height: 30px;
         }
     }
 }

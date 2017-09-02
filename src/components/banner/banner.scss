@@ -19,7 +19,7 @@
             display: flex;
             span {
                 flex: 1;
-                text-align: center;
+                text-align: left;
                 cursor: pointer;
                 &:first-child::after {
                     content: ">";

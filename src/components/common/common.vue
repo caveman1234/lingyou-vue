@@ -27,7 +27,7 @@
     <div class="footer">
       <div class="footerLeft">
         <div class="content">
-          COPYRIGHT 2017 ALL RIGHT RESERVED LINGYOU.COM 零忧实业
+          COPYRIGHT 2017 ALL RIGHT RESERVED LINGYOUCX.COM 零忧实业
         </div>
       </div>
       <div class="footerRight">

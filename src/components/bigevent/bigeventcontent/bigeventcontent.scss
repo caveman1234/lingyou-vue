@@ -1,4 +1,4 @@
-.buildingindustry {
+.bigeventcontent {
     .title {
         margin-top: 20px;
         font-size: 25px;
@@ -17,14 +17,20 @@
     }
     .content {
         margin-top: 20px;
-        .p {
-            line-height: 35px;
-            color: #666666;
-            text-indent: 2em;
-        }
-        p {
-            line-height: 35px;
-            color: #666666;
+        .item {
+            display: flex;
+            .time {
+                flex: 0 0 120px;
+                line-height: 50px;
+                cursor: pointer;
+                color: #333333;
+            }
+            .brief {
+                flex: 1;
+                line-height: 50px;
+                cursor: pointer;
+                color: #333333;
+            }
         }
     }
 }

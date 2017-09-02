@@ -100,16 +100,17 @@ export default {
     }
   },
   mounted() {
-    window.header = this;
+    
   }
 }
 let headerList = [
-  { title: '首页', route: 'introduction', hasClass: true, clicked: true },
-  { title: '关于我们', route: 'introduction', hasClass: false, clicked: false, children: [{ title: '集团简介', visiable: false, route: 'introduction' }, { title: '大事记', visiable: false, route: 'bigevent' }] },
+  { title: '首页', route: 'home', hasClass: true, clicked: true },
+  { title: '关于我们', route: 'introduction', hasClass: false, clicked: false, children: [{ title: '公司简介', visiable: false, route: 'introduction' }, { title: '大事记', visiable: false, route: 'bigevent' }] },
   { title: '新闻资讯', route: 'news', hasClass: false, clicked: false },
   { title: '公司产业', route: 'carindustry', hasClass: false, clicked: false, children: [{ title: '车辆产业', visiable: false, route: 'carindustry' }, { title: '建材产业', visiable: false, route: 'buildingindustry' }] },
   { title: '企业公民', route: 'citizen', hasClass: false, clicked: false },
-  { title: '加入我们', route: 'joinus', hasClass: false, clicked: false }
+  { title: '加入我们', route: 'joinus', hasClass: false, clicked: false },
+  { title: '联系我们', route: 'contactus', hasClass: false, clicked: false }
 ];
 </script>
 <style lang="scss" scoped>
