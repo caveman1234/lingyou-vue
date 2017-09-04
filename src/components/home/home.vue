@@ -1,7 +1,8 @@
 <template>
     <div>
         <common title="首页">
-            <div>home-page</div>
+            <div @click="func">home-page-click</div>
+            <div id="msg">{{msg}}</div>
         </common>
     </div>
 </template>
@@ -10,7 +11,16 @@ import common from '@/components/common/common';
 export default {
     components: { common },
     data() {
-        return {}
+        return {
+            msg:'msg'
+        }
+    },
+    methods:{
+        func(){
+            this.msg = "msg-changed";
+            
+            setTimeout(()=>console.log(msg.innerHTML),0)
+        }
     }
 }
 </script>
