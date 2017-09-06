@@ -26,12 +26,16 @@
             user-select: none;
             .dropDown {
                 position: absolute;
+                top: 0;
+                left: 0;
                 width: 100%;
                 text-align: center;
-                background: rgb(40, 73, 115);
+                transition: all 0.3s;
                 .dropDownItem {
+                    height: 30px;
                     line-height: 30px;
                     color: white;
+                    background: rgba(40, 73, 115, 0.1);
                 }
             }
         }
@@ -79,4 +83,13 @@
 .itemBlue {
     background: rgb(21, 65, 133);
     color: white;
+}
+
+.dropDownItemBase {
+    height: 30px;
+    line-height: 30px;
+}
+
+.dropDownT {
+    transform: translateY(70px);
 }
