@@ -1,6 +1,6 @@
 <template>
   <div>
-    <common>
+    <common title="企业公民">
       <div class="citizen">
         <div class="title">企业公民</div>
         <div class="content">

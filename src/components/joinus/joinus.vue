@@ -1,6 +1,6 @@
 <template>
   <div>
-    <common>
+    <common title="加入我们">
       <div class="joinus">
         <div class="title">加入我们</div>
         <div class="content">

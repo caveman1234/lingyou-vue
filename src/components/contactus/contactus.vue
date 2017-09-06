@@ -1,5 +1,5 @@
 <template>
-    <common>
+    <common title="联系我们">
         <div class="contactus">
             <div class="title">联系我们</div>
             <div class="container1">

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <common>
+    <common title="车辆产业">
       <div class="carindustry">
         <div class="title">车险产业</div>
         <div class="content">
