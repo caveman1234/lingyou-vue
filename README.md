@@ -1,6 +1,6 @@
 # lingyou
 
-> A Vue.js project
+> weweweA Vue.js project
 
 ## Build Setup
 
