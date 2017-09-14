@@ -1,6 +1,10 @@
 # lingyou
 
+<<<<<<< HEAD
+> weweweA Vue.js project
+=======
 > A Vue.js project change222222
+>>>>>>> 222
 
 ## Build Setup
 
