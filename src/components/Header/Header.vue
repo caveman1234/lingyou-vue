@@ -8,11 +8,13 @@
       <li v-for="(item,index) in headerList" :key="item.title" @mouseover="titleMouseover(index)" @mouseout="titleMouseout(index)" :class="[item.hasClass?'itemBlue':'']" @click.stop="itemClick(index)">
         {{item.title}}
         <template v-if="item.children">
-          <div class="dropDown">
-            <div v-for="(list,index1) in item.children" :key="list.title" class="dropDownItem" @click.stop="childClick(index,index1)">
+          
+          <div class="dropDown" :class="[item.children[0].visiable?'dropDownT':'']">
+            <div  v-for="(list,index1) in item.children" :key="list.title" @click.stop="childClick(index,index1)" :class="[list.visiable?'dropDownItem':'']" class="dropDownItemBase">
               <template v-if="list.visiable">{{list.title}}</template>
             </div>
           </div>
+
         </template>
 
       </li>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <common>
+    <common title="建材产业">
       <div class="buildingindustry">
         <div class="title">建材产业</div>
         <div class="content">

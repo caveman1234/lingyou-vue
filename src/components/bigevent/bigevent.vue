@@ -1,6 +1,6 @@
 <template>
   <div>
-    <common>
+    <common title="大记事">
       <component :is="comp" @itemClickFun="itemClickFun" @backFun="backFun"></component>
     </common>
 
