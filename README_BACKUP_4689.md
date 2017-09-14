@@ -1,6 +1,10 @@
 # lingyou
 
+<<<<<<< Updated upstream
 > A Vue.js project change222222333333
+=======
+> csvsdvdsA Vue.js project change222222
+>>>>>>> Stashed changes
 
 ## Build Setup
 
