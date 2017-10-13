@@ -3,7 +3,7 @@
       <div class="home-center">
         <div class="margin">
           <div class="home-left">
-            <div class="home-left-item" :class="item.listclass" v-for="(item,index) in homelist" @click="leftclickFun(index)">
+            <div class="home-left-item" :class="item.listclass" v-for="(item,index) in homelist" @click="leftclickFun(index)" :key="index">
               <div class="left-list-title">
                 <span class="list-title">{{item.listtitle}}</span>
                 <span>{{item.listtag}}</span>
@@ -30,7 +30,7 @@
         </div>
         <div class="home-right">
           <div class="right-nav">
-            <div v-for="(item,index) in navs" class="home-nav-item" :class="item.navclass" @click="clickFun(item,index)">{{item.navTitle}}</div>
+            <div v-for="(item,index) in navs" class="home-nav-item" :class="item.navclass" @click="clickFun(item,index)" :key="index">{{item.navTitle}}</div>
             <!--<div class="home-nav-item">新型建材</div>-->
             <!--<div class="home-nav-item">房 地 产</div>-->
             <!--<div class="home-nav-item">水电开发</div>-->
