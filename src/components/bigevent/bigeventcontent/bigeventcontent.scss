@@ -20,17 +20,16 @@
         color: #6f6f6f;
         .item {
             display: flex;
+            line-height: 60px;
             .time {
                 flex: 0 0 120px;
-                line-height: 50px;
+                line-height: 60px;
                 cursor: pointer;
-                color: #333333;
             }
             .brief {
                 flex: 1;
-                line-height: 50px;
+                line-height: 60px;
                 cursor: pointer;
-                color: #333333;
             }
         }
     }
