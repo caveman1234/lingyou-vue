@@ -17,9 +17,19 @@
 </template>
 <script>
 import common from '@/components/common/common';
-
 export default {
-    components: { common }
+    components: { common },
+    data() {
+        return {
+            fileList: []
+        }
+    },
+    methods: {
+        
+    },
+    mounted() {
+
+    }
 
 }
 </script>
