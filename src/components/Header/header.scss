@@ -1,0 +1,94 @@
+.header {
+    width: 1100px;
+    margin: 0 auto;
+    height: 70px;
+    position: relative;
+    .img {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 60px;
+        img {
+            height: 100%;
+        }
+    }
+    ul {
+        width: 600px;
+        margin: 0 auto;
+        display: flex;
+        list-style: none;
+        li {
+            flex: 1;
+            line-height: 70px;
+            cursor: pointer;
+            text-align: center;
+            position: relative;
+            user-select: none;
+            .dropDown {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                transition: all 0.3s;
+                .dropDownItem {
+                    height: 30px;
+                    line-height: 30px;
+                    color: white;
+                    background: rgba(40, 73, 115, 0.5);
+                }
+            }
+        }
+    }
+    .right {
+        position: absolute;
+        height: 100%;
+        width: 200px;
+        right: 0;
+        top: 0;
+        .top {
+            margin-top: 8px;
+            box-sizing: border-box;
+            input {
+                line-height: 20px;
+                width: 150px;
+                outline: none;
+                border-radius: 1px;
+                border: 1px solid rgb(26, 71, 140);
+                text-indent: 5px;
+            }
+            span {
+                display: inline-block;
+                line-height: 21px;
+                background: rgb(26, 71, 140);
+                border-radius: 2px;
+                color: white;
+                margin-left: -1px;
+                cursor: pointer;
+                text-align: center;
+                padding-bottom: 2px;
+                width: 35px;
+            }
+        }
+        .bottom {
+            box-sizing: border-box;
+            line-height: 35px;
+            font-size: 12px;
+            color: #666666;
+        }
+    }
+}
+
+.itemBlue {
+    background: rgb(21, 65, 133);
+    color: white;
+}
+
+.dropDownItemBase {
+    height: 30px;
+    line-height: 30px;
+}
+
+.dropDownT {
+    transform: translateY(70px);
+}
